@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navbar-brand-logo {
+        max-width: 32px;
+    }
+
+    .navbar-brand-name {
+        font-size: 1rem;
+    }
+
+    .navbar-navigation {
+        display: none;
+    }
+
+    .header {
+        height: max-content;
+        padding: 10%;
+    }
+
+    .hero {
+        margin: auto;
+    }
+
+    .hero-content {
+        padding: 4px;
+    }
+
+    .slogan {
+        font-size: 1.5rem;
+    }
+
+    .hero-button {
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
